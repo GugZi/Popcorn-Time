@@ -6,8 +6,8 @@ A simple keyboard mapped remote for [PopcornTime](https://popcorntime.sh)
 * **Video Player tab** - Control playback, Control Volume, Fullscreen toggle, Skip back/ahead and Offset subs.
 
 ## Screenshots
-<img alt="Main interface interface of PopcornTime remote"  src='/remotes/raw/unifiedremote_popcorn_time_remote_master/screen1.png' > 
-<img alt="Video player interface of PopcornTime remote"  src='/remotes/raw/unifiedremote_popcorn_time_remote_master/screen2.png' >
+<a href="https://imgur.com/az4Xgga.png"><img src="https://i.imgur.com/az4Xgga.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/7QqsCiZ.png"> <img src="https://i.imgur.com/7QqsCiZ.png" title="source: imgur.com" /></a>
 
 ## Support
 Developed and maintained by **GugZi**
