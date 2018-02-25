@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout orientation="portrait" onlaunch="launch">
+	<row weight="10">
+		<tabs color="#424242">
+
+			<!-- Main Interface Control Tab -->
+			<tab color="#1565C0" text="Main Interface">
+				
+				<!-- Category Switcher -->
+				<row>
+					<grid>
+						<row>
+							<button color="#42A5F5" text="Movies" ontap="switchvideosource,movies" />
+							<button color="#42A5F5" text="Series" ontap="switchvideosource,tv" />
+							<button color="#42A5F5" text="Anime" ontap="switchvideosource,anime" />
+							<button color="#42A5F5" text="Favorite" ontap="switchvideosource,favorite" />
+						</row>
+					</grid>
+				</row>
+					
+					
+				<!-- Navigation Controls -->
+				<row weight="7">
+					<!-- Arrow Buttons -->
+					<grid>
+						<row>
+							<button icon="search" ontap="search" />
+							<button icon="up" ontap="moveup" />
+							<button text="Clear Search" ontap="clearsearch" />
+						</row>
+							<row>
+								<button icon="left" ontap="moveleft" />
+								<button icon="select" ontap="select"/>
+								<button icon="right" ontap="moveright" />
+							</row>
+							<row>
+								<button icon="back" ontap="goback" />
+								<button icon="down" ontap="movedown" />
+								<button icon="favorite" ontap="setfavorites" />
+							</row>
+					</grid>
+					</row>
+
+
+				<row weight="1">
+					<grid>
+						<button weight="2" text="Change Quality" ontap="changequality" />
+					</grid>
+				</row>
+			</tab>
+
+			<!-- Video Player Control Tab -->
+			<tab color="#7CB342" text="Video Player">
+			
+					<!-- Subs Controls -->
+					<row>
+						<button textalign="center" text="Offset Subs by +0.1s" ontap="offsetsubsplus01" />
+						<button textalign="center" text="Offset Subs by +1s" ontap="offsetsubsplus1" />
+						<button textalign="center" text="Offset Subs by +5s" ontap="offsetsubsplus5" />
+					</row>
+
+					<row>
+						<button textalign="center" text="Offset Subs by -0.1s" ontap="offsetsubsminus01" />
+						<button textalign="center" text="Offset Subs by -1s" ontap="offsetsubsminus1" />
+						<button textalign="center" text="Offset Subs by -5s" ontap="offsetsubsminus5" />
+					</row>
+				
+				<grid>
+					<!-- Gap -->
+					<row weight="0.1"></row>
+					
+					<!-- Volume + Fullscreen Control -->
+					<row>
+						<button icon="vdown" ontap="volumedown" />
+						<button icon="vmute" ontap="volumemute" />
+						<button icon="vup" ontap="volumeup"/>
+						<button icon="fullscreen" ontap="togglefullscreen" />
+					</row>
+
+					<!-- Playback Controls -->
+					<row>
+						<button icon="rwd" ontap="skipbackward" />
+						<button icon="stop" ontap="goback" />
+						<button icon="playpause" ontap="select" />
+						<button icon="ff" ontap="skipforward" />
+						
+					</row>
+				</grid>
+			</tab>
+		</tabs>
+	</row>
+</layout>
